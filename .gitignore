@@ -1,0 +1,21 @@
+# Virtual Environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ML data files (too large)
+ml/data/
+ml/__pycache__/
+
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Django
+*.sqlite3
