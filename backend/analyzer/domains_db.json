@@ -1,0 +1,57 @@
+{
+  "ndtv.com": {
+    "trustScore": 9,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "thehindu.com": {
+    "trustScore": 9,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "bbc.com": {
+    "trustScore": 10,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "reuters.com": {
+    "trustScore": 10,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "pib.gov.in": {
+    "trustScore": 10,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "indianexpress.com": {
+    "trustScore": 8,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "timesofindia.com": {
+    "trustScore": 8,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "gujaratsamachar.com": {
+    "trustScore": 7,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "sandesh.com": {
+    "trustScore": 7,
+    "category": "reliable",
+    "reportCount": 0
+  },
+  "postcard.news": {
+    "trustScore": 1,
+    "category": "fake",
+    "reportCount": 50
+  },
+  "opindia.com": {
+    "trustScore": 2,
+    "category": "propaganda",
+    "reportCount": 30
+  }
+}
