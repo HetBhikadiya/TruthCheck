@@ -17,7 +17,8 @@ function Navbar() {
       </Link>
       <div style={{ display: 'flex', gap: '2rem' }}>
         <Link to="/" style={{ color: '#94a3b8', textDecoration: 'none' }}>Home</Link>
-        <Link to="/dashboard" style={{ color: '#94a3b8', textDecoration: 'none' }}>Dashboard</Link>
+              <Link to="/dashboard" style={{ color: '#94a3b8', textDecoration: 'none' }}>Dashboard</Link>
+              <Link to="/analytics" style={{ color: '#94a3b8', textDecoration: 'none' }}>Analytics</Link>
       </div>
     </nav>
   )

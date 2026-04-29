@@ -82,6 +82,36 @@ function Home() {
         }}
       />
 
+      {/* WhatsApp Cleaner Button */}
+      {content && inputType === 'text' && (
+        <button
+          onClick={() => {
+            // Remove emojis and clean WhatsApp formatting
+            let cleaned = content
+            cleaned = cleaned.replace(/[\u{1F600}-\u{1F64F}]/gu, '')
+            cleaned = cleaned.replace(/[\u{1F300}-\u{1F5FF}]/gu, '')
+            cleaned = cleaned.replace(/[\u{1F680}-\u{1F6FF}]/gu, '')
+            cleaned = cleaned.replace(/[\u{2600}-\u{26FF}]/gu, '')
+            cleaned = cleaned.replace(/Forwarded message/gi, '')
+            cleaned = cleaned.replace(/\[.*?\]/g, '')
+            cleaned = cleaned.replace(/\n{3,}/g, '\n\n')
+            setContent(cleaned.trim())
+          }}
+          style={{
+            background: '#25D366',
+            color: 'white',
+            border: 'none',
+            padding: '0.5rem 1rem',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            marginTop: '0.5rem',
+            fontSize: '0.9rem'
+          }}
+        >
+          🧹 Clean WhatsApp Forward
+        </button>
+      )}
+
       {error && (
         <p style={{ color: '#f87171', marginTop: '0.5rem' }}>{error}</p>
       )}
